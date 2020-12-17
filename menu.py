@@ -38,7 +38,7 @@ class Menu:
         self.action_saveas.triggered.connect(self.window.show_save_dialog)
         self.file_menu.addAction(self.action_saveas)
         
-        # ============== Save File As ================= #
+        # ============== Close ================= #
         self.action_close = QAction("&Cerrar")
         self.action_close.triggered.connect(self.window.close)
         self.file_menu.addAction(self.action_close)

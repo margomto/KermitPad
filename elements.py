@@ -16,8 +16,7 @@ class MyMainWindow(QMainWindow):
         self.text.setMinimumWidth(300)
         self.setCentralWidget(self.text)
         self.mk = MyMarkdownBrowser(self)
-        
-        
+              
     def new(self):
         global file_path
         if self.save_if_modified():
